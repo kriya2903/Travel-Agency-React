@@ -413,6 +413,12 @@
   width: 24px;
   height: 24px;
 }
+@media(max-width: 1200px) {
+  .landing-page-top-container {
+    border-color: var(--dl-color-gray-black);
+    border-width: 10px;
+  }
+}
 @media(max-width: 991px) {
   .landing-page-hero {
     padding-left: var(--dl-space-space-tripleunit);
