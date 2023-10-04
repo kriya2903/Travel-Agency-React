@@ -413,10 +413,41 @@
   width: 24px;
   height: 24px;
 }
+@media(max-width: 1600px) {
+  .landing-page-content-container {
+    align-self: flex-start;
+    margin-left: 60px;
+  }
+  .landing-page-text09 {
+    align-self: center;
+  }
+}
 @media(max-width: 1200px) {
   .landing-page-top-container {
     border-color: var(--dl-color-gray-black);
     border-width: 10px;
+  }
+  .landing-page-cards-container {
+    position: relative;
+  }
+  .landing-page-menu {
+    width: 1004px;
+    border-color: #f7eeee;
+    border-width: 5px;
+  }
+  .landing-page-logo2 {
+    align-self: center;
+    margin-left: 10px;
+  }
+  .landing-page-links-container2 {
+    border-color: var(--dl-color-gray-black);
+    border-width: 5px;
+  }
+  .landing-page-text16 {
+    margin-right: 20px;
+  }
+  .landing-page-icons-container1 {
+    margin-right: 20px;
   }
 }
 @media(max-width: 991px) {
